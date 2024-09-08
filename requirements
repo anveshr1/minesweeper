@@ -1,0 +1,7 @@
+The project portion of the interview is to build a game of Minesweeper in Django/React.
+There are purposefully very few requirements, to allow you to be as creative as desired: there are no hidden requirements that we're looking out for and not mentioning.
+The game map should not be stored on the client side, to prevent the player from cheating.
+When clicking on a box, an AJAX request should be sent to the server to determine the current status of the field and update it accordingly.
+Game states should be stored on the server such that the player can get back to a game by going to the game's URL.
+The most important thing to us is how you structure your code. While having a feature-rich product is important, it's more important to have something bug-free, with well-structured and easily readable code. A nice-looking and intuitive UI is always viewed favorably too.
+Feel free to add as many bells and whistles as you'd like! For example, you can make it such that multiple people can play the same game together, or implement a leaderboard.
